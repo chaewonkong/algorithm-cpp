@@ -8,9 +8,7 @@ using namespace std;
 int main() {
     int h, m, due;
 
-    std::cin >> h;
-    std::cin >> m;
-    std::cin >> due;
+    cin >> h >> m >> due;
 
     int rHour = 0;
     int rMin = 0;
@@ -20,7 +18,7 @@ int main() {
     rMin = rMin % 60;
 
     rHour = rHour % 24;
-    std::cout << rHour << " " << rMin << std::endl;
+    cout << rHour << " " << rMin << endl;
 
     return 0;
 }
